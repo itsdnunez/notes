@@ -7,7 +7,8 @@ In file name use 'folderName'/'fileName'
 - Leaving a line between commands will stack the commands on top of the other 
 
 # Links
-- External links - [Link name](link "link hover title")
+- External links - [Link name]"(link "link hover title")"
 - Repository links - [Link name](link of page with ../"anything past /blob)
 
-# yes
+# Filetypes used
+- [.md files are markdown files](https://github.com/QL-Win/QuickLook/wiki/Supported-File-Types)
