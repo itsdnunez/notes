@@ -5,4 +5,4 @@
 ## 7 Kyu
 &#x2611;
 
-&#x2612; [Regex validate PIN code](../main/notes/CodeWarsKata/7kyu)
+&#x2612; [Regex validate PIN code](../main/CodwarsKata/7kyu/Regex%20validate%20PIN%20code.md)
