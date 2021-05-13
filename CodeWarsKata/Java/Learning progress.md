@@ -8,3 +8,8 @@
  - String.charAt(x)
  - Existence of the regex library 
 
+##13.05.2021 
+
+### from [Reverse Strings](https://github.com/itsdnunez/notes/blob/8fbe06e9a8cf22728c55fdf38787a79769b2d567/CodeWarsKata/Java/8kyu/Reversed%20Strings.md)
+ - Basic stringbuilder(str) functions
+ - string.toCharArray()
