@@ -5,10 +5,10 @@
 
 ### Starting files
 
-'''java
+```java
 public class MyClass {
     public static void main(String[] args) {
       //p    
     }
 }
-'''
+```
