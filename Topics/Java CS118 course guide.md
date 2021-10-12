@@ -17,6 +17,11 @@ public class MyClass {
 
 Do not use ($) or start variable name with an (_) 
 
+#### Variable scope
+
+Where a variable is declared, it only exists within the curly braces
+Variables declared outside of methods are instance/ class variables - they maintain values between functions
+
 #### types of variable:
 - byte - -2^7 to 2^7-1
 - short - 2^15
@@ -45,9 +50,13 @@ Store collections of similar objects
 
 #### Declaration
 
+Declaring the array requires 
 
+> type arrayName[] = new type[arrayLength]
 
->type arrayName[] = 
+Declaring values in the array 
+
+> arrayName[place in array] = x;
 
 
 
