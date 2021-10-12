@@ -41,7 +41,13 @@ s.charAt(n); // where n is the position of the chosen character
 
 ### Arrays
 
+Store collections of similar objects
 
+#### Declaration
+
+
+
+>type arrayName[] = 
 
 
 
