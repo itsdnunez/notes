@@ -3,7 +3,7 @@
 - So basically remember to put .java in filenames
 - Also name your classes the same as the filename
 
-### Starting files
+## Starting files
 
 ```java
 public class MyClass {
@@ -13,16 +13,17 @@ public class MyClass {
 }
 ```
 
-### Variables
+## Variables
 
 Do not use ($) or start variable name with an (_) 
 
 #### Variable scope
 
-Where a variable is declared, it only exists within the curly braces
-Variables declared outside of methods are instance/ class variables - they maintain values between functions
+- Where a variable is declared, it only exists within the curly braces
+- Variables declared outside of methods are instance/ class variables - they maintain values between functions
+- 2 variables with the same names may be able to coexist given their scopes do not overlap
 
-#### types of variable:
+#### Types of variable:
 - byte - -2^7 to 2^7-1
 - short - 2^15
 - int - 2^31
@@ -36,7 +37,7 @@ Variables declared outside of methods are instance/ class variables - they maint
  
 Declared values are *int* by default so do (Number)L for large numbers
 
-### Objects
+## Objects
 
 Names start with capital letters 
 
@@ -44,7 +45,7 @@ Names start with capital letters
 
 s.charAt(n); // where n is the position of the chosen character
 
-### Arrays
+## Arrays
 
 Store collections of similar objects
 
@@ -58,6 +59,69 @@ Declaring values in the array
 
 > arrayName[place in array] = x;
 
+## Conditional Statements
+
+### If statements
+
+```java
+if (condition) {
+} elseif (condition) {
+} else {
+]
+```
+
+can also use &&, or || - a single one is strict, double is lazy
+
+### Switch statements
+
+- If you want to evaluate multiple cases, but if a break is encoutnered, Java skips to the end of the break switch statement
+- If no cases are matched, default case will be executed unless it is absent
+```java
+switch (variable) {
+    case 1:...
+        break;
+    case 2:...
+        ...
+    default: ...      
+}
+```
+
+;;;;;;;;;; page 32, 4.3
+
+
+## Iteration
+
+### While loops
+
+### For loops 
+
+## Input and Ouput
+
+3 I/O streams, 2 for output (output stream and error stream) 
+
+> System.out, System.err and System.in
+
+Use PrintStrem documentation for methods
+
+#### Scanners
+
+For input streams, read byte-by-byte or use another class - Java provides Scanner for this
+
+Scanners are declared:
+```java
+Scanner sc = new Scanner(System.in);
+long aLong = sc.nextLong();
+double aDouble = sc.nextDouble();
+```
+
+####  Exercise
+
+
+## Methods
+
+## OOP
+
+## Debugging 
 
 
 
