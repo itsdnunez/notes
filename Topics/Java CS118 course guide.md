@@ -86,8 +86,6 @@ switch (variable) {
 }
 ```
 
-;;;;;;;;;; page 32, 4.3
-
 ## Iteration
 
 ### While 
@@ -154,11 +152,27 @@ double aDouble = sc.nextDouble();
 
 Methods can be public, private or protected
 
-
-
 ## OOP
 
+- Almost everything is an object - instance of a class initialised with the *new* keyword 
+- Access modifiers allow *encapsulation* - generally use private variables and public methods in object oriented code
+- Class variables must be private - can only be changed by method in the class
+- Safest way to program - make all things private unless external access is required
+
+#### Inheritance
+
+- Classes can be created that inherit properties and mehtods from other classes
+> [type] class [newObject] extends [className]{
+> }
+
+These extended classes can be further extended with their own properties
+
 ## Debugging 
+
+- Syntatic error - occurs at compile time 
+- Semantic error - code understood by compiler but logic is incorrect 
+
+
 
 
 
