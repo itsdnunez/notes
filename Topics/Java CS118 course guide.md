@@ -88,12 +88,33 @@ switch (variable) {
 
 ;;;;;;;;;; page 32, 4.3
 
-
 ## Iteration
 
-### While loops
+### While 
+
+```java
+while (condition){
+    //code
+}
+```
+
+When code needs to be evaluated after the body has been executed use
+
+```java
+do {
+    //code
+} while (condition);
+```
 
 ### For loops 
+
+Formatting for loops
+
+```java
+for (initial condition; termination condition; iteration operation){
+    //code 
+}
+```
 
 ## Input and Ouput
 
@@ -105,6 +126,8 @@ Use PrintStrem documentation for methods
 
 #### Scanners
 
+**Import Scanner**
+
 For input streams, read byte-by-byte or use another class - Java provides Scanner for this
 
 Scanners are declared:
@@ -114,10 +137,24 @@ long aLong = sc.nextLong();
 double aDouble = sc.nextDouble();
 ```
 
-####  Exercise
-
-
 ## Methods
+
+- Allow repeated subproblems to reuse the same code = less code and facilitates changes and extensions 
+- All methods have names - list of parameters and a return type
+
+> when no return type use 'void'
+
+```java
+[access][type] methodName([returnType] parameterName, [type] parameterName,...){
+...
+}
+```
+
+#### Access types
+
+Methods can be public, private or protected
+
+
 
 ## OOP
 
