@@ -14,4 +14,5 @@
 
 ### Java
 
+- [CS118 stuffs](https://github.com/itsdnunez/notes/blob/main/Topics/Java%20CS118%20course%20guide.md) 
 - [Codewars practice](https://github.com/itsdnunez/notes/tree/main/CodeWarsKata/Java)
