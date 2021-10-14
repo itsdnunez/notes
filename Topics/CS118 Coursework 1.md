@@ -67,5 +67,13 @@ Math.random() generates a random floating point number 0 <= x < 1.
 
 To generate random numbers take the result and multiply it by n then use Math.round(x) to round it to the nearest integer. 
 
+# Part 1 
 
+
+
+
+
+
+
+# Part 2 
 
